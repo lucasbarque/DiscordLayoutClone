@@ -7,7 +7,7 @@ export interface Props {
 
 export default function ChannelButton({ channelName, selected }: Props) {
   return (
-    <Container className={selected && 'active'}>
+    <Container className={selected ? 'active' : ''}>
       <div>
         <HashtagIcon />
         <span>{channelName}</span>

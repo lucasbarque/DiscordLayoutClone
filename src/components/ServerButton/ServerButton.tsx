@@ -22,7 +22,7 @@ export default function ServerButton({
       isHome={isHome}
       hasNotifications={hasNotifications}
       mentions={mentions}
-      className={selected && 'active'}
+      className={selected ? 'active' : ''}
     >
       {isHome && <img src={Logo} alt='Rocketseat' />}
     </Button>
