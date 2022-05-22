@@ -8,7 +8,7 @@
 
 ## 🔥 Try yourself
 
-[![Deploy with Vercel](https://vercel.com/button)](https://feedback-widget-mu.vercel.app/)
+[![Deploy with Vercel](https://vercel.com/button)](https://discord-layout-clone.vercel.app/)
 
 ## 💻 Project
 
