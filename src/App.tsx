@@ -1,5 +1,16 @@
+import React from 'react';
+
+import Layout from './components/Layout/Layout';
+import { GlobalStyles } from './global';
+
 function App() {
-  return <div>Hello World Lucas</div>;
+  return (
+    <>
+      <Layout />
+
+      <GlobalStyles />
+    </>
+  );
 }
 
 export default App;
