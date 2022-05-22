@@ -1,3 +1,4 @@
+import ChannelData from '../ChannelData/ChannelData';
 import ChannelInfo from '../ChannelInfo/ChannelInfo';
 import ChannelList from '../ChannelList/ChannelList';
 import ServerList from '../ServerList/ServerList';
@@ -15,7 +16,7 @@ export default function Layout() {
       <ChannelInfo />
       <ChannelList />
       <UserInfo />
-      <div></div>
+      <ChannelData />
       <UserList />
     </Grid>
   );

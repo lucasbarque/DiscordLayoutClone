@@ -10,9 +10,9 @@ export default function ChannelList() {
       </Category>
 
       <ChannelButton channelName='chat-livre' />
-      <ChannelButton channelName='trabalho' selected />
+      <ChannelButton channelName='trabalho' />
+      <ChannelButton channelName='apex-legends' selected />
       <ChannelButton channelName='csgo' />
-      <ChannelButton channelName='apex-legends' />
     </Container>
   );
 }
